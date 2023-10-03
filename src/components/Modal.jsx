@@ -1,31 +1,3 @@
-// import React from "react";
-// import "../styles/feed.scss";
-// const Modal = ({ toggleModal }) => {
-//   console.log("bro");
-//   return (
-//     <div>
-//       <div className="modal">
-//         <div className="modal-content">
-//           <header>
-//             <div className="close">
-//               <span className="close-btn" onClick={() => toggleModal(false)}>
-//                 &times;
-//               </span>
-//             </div>
-//             <h1>Modal Title</h1>
-//           </header>
-//           <p>Modal content</p>
-//           <footer>
-//             <button onClick={() => toggleModal(false)}>Close</button>
-//           </footer>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Modal;
-
 import React from "react";
 import "../styles/feed.scss";
 export default function Modal(props) {
